@@ -1,4 +1,4 @@
-# @usewaypoint/editor-sample
+# Email Builder/editor-sample
 
 Use this as a sample to self-host EmailBuilder.js.
 
