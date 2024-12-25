@@ -1,0 +1,140 @@
+{
+  "root": {
+    "type": "EmailLayout",
+    "data": {
+      "backdropColor": "#F5F5F5",
+      "canvasColor": "#FFFFFF",
+      "textColor": "#262626",
+      "fontFamily": "MODERN_SANS",
+      "childrenIds": [
+        "block-1735140596038"
+      ]
+    }
+  },
+  "block-1735140596038": {
+    "type": "ColumnsContainer",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "columnsCount": 2,
+        "columnsGap": 16,
+        "columns": [
+          {
+            "childrenIds": [
+              "block-1735140602940"
+            ]
+          },
+          {
+            "childrenIds": [
+              "block-1735140639487",
+              "block-1735140652837",
+              "block-1735140679837",
+              "block-1735140687240"
+            ]
+          },
+          {
+            "childrenIds": []
+          }
+        ]
+      }
+    }
+  },
+  "block-1735140602940": {
+    "type": "Image",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "url": "https://react.email/static/braun-vintage.jpg",
+        "alt": "Sample product",
+        "linkHref": null,
+        "contentAlignment": "middle"
+      }
+    }
+  },
+  "block-1735140639487": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "Great Timepiece",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735140652837": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontWeight": "normal",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "Renowned for their minimalist design and high functionality, celebrating the principles of simplicity and clarity."
+      }
+    }
+  },
+  "block-1735140679837": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "$120.00",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735140687240": {
+    "type": "Button",
+    "data": {
+      "style": {
+        "textAlign": "center",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "buttonBackgroundColor": "#2563EB",
+        "fullWidth": true,
+        "size": "small",
+        "text": "Buy",
+        "url": "https://www.usewaypoint.com"
+      }
+    }
+  }
+}

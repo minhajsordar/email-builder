@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "outDir": "dist",
+    "lib": ["es2017", "dom"],
+    "resolveJsonModule": true,
+  },
+  "exclude": ["dist"]
+}

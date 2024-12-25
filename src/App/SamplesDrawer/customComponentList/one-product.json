@@ -1,0 +1,150 @@
+{
+  "root": {
+    "type": "EmailLayout",
+    "data": {
+      "backdropColor": "#F5F5F5",
+      "canvasColor": "#FFFFFF",
+      "textColor": "#262626",
+      "fontFamily": "MODERN_SANS",
+      "childrenIds": [
+        "block-1735139680738"
+      ]
+    }
+  },
+  "block-1735139680738": {
+    "type": "Container",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "left": 24,
+          "right": 24
+        }
+      },
+      "props": {
+        "childrenIds": [
+          "block-1735139685321",
+          "block-1735139694524",
+          "block-1735139716923",
+          "block-1735139745738",
+          "block-1735139764722",
+          "block-1735139790722"
+        ]
+      }
+    }
+  },
+  "block-1735139685321": {
+    "type": "Image",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "url": "https://react.email/static/braun-collection.jpg",
+        "alt": "Sample product",
+        "linkHref": null,
+        "contentAlignment": "middle"
+      }
+    }
+  },
+  "block-1735139694524": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "Classic Watches",
+        "level": "h3"
+      },
+      "style": {
+        "textAlign": "center",
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735139716923": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "Elegant Comfort",
+        "level": "h1"
+      },
+      "style": {
+        "color": "#2563EB",
+        "textAlign": "center",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735139745738": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontWeight": "normal",
+        "textAlign": "center",
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "Dieter Rams’ work has an outstanding quality which distinguishes it from the vast majority of industrial design of the entire 20th Century."
+      }
+    }
+  },
+  "block-1735139764722": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "color": null,
+        "fontSize": 19,
+        "fontWeight": "bold",
+        "textAlign": "center",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "$210.00"
+      }
+    }
+  },
+  "block-1735139790722": {
+    "type": "Button",
+    "data": {
+      "style": {
+        "textAlign": "center",
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "buttonBackgroundColor": "#2563EB",
+        "text": "Buy Now",
+        "url": "https://www.buynow.com"
+      }
+    }
+  }
+}
