@@ -12,6 +12,13 @@ export default function getConfiguration(template: string) {
   if (template.startsWith('#sample/')) {
     const sampleName = template.replace('#sample/', '');
     switch (sampleName) {
+      case 'autosaved':
+        const emailMessageFromLocalStorage = localStorage.getItem("autosaved-email-template")
+        if (emailMessageFromLocalStorage) {
+          return JSON.parse(emailMessageFromLocalStorage);
+        } else {
+          return EMPTY_EMAIL_MESSAGE;
+        }
       case 'welcome':
         return WELCOME;
       case 'one-time-password':

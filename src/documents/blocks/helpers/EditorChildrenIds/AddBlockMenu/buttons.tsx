@@ -27,7 +27,7 @@ export const BUTTONS: TButtonProps[] = [
     block: () => ({
       type: 'Heading',
       data: {
-        props: { text: 'Hello Minhaj' },
+        props: { text: 'Hello world' },
         style: {
           padding: { top: 16, bottom: 16, left: 24, right: 24 },
         },

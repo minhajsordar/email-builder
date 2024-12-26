@@ -153,21 +153,26 @@ export function setDocument(document: TValue['document']) {
         const rootdata = updateTemplateKeys(JSON.parse(JSON.stringify(element.data)))
         newDoc[key] = rootdata.root
         delete rootdata.root
+        const newDocument = {
+          ...originalDocument,
+          ...rootdata,
+          ...newDoc,
+        }
+        localStorage.setItem("autosaved-email-template", JSON.stringify(newDocument))
         return editorStateStore.setState({
-          document: {
-            ...originalDocument,
-            ...rootdata,
-            ...newDoc,
-          },
+          document:newDocument,
         });
       }
     }
   }
+  const newDocument = {
+    ...originalDocument,
+    ...document,
+  }
+  localStorage.setItem("autosaved-email-template", JSON.stringify(newDocument))
+  console.log("hello")
   return editorStateStore.setState({
-    document: {
-      ...originalDocument,
-      ...document,
-    },
+    document: newDocument,
   });
 }
 
