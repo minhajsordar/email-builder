@@ -1,0 +1,347 @@
+{
+  "root": {
+    "type": "EmailLayout",
+    "data": {
+      "backdropColor": "#F5F5F5",
+      "canvasColor": "#FFFFFF",
+      "textColor": "#262626",
+      "fontFamily": "MODERN_SANS",
+      "childrenIds": [
+        "block-1735190015949",
+        "block-1735190027325",
+        "block-1735190036141"
+      ]
+    }
+  },
+  "block-1735190015949": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "\nTiming Products"
+      },
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735190027325": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontWeight": "normal",
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "Dieter Rams consistently implemented his design principles over the course of over three decades as the Braun design leader."
+      }
+    }
+  },
+  "block-1735190036141": {
+    "type": "ColumnsContainer",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "columnsCount": 3,
+        "columnsGap": 16,
+        "contentAlignment": "top",
+        "columns": [
+          {
+            "childrenIds": [
+              "block-1735190047260",
+              "block-1735190049451",
+              "block-1735190051677",
+              "block-1735190053965",
+              "block-1735190059428"
+            ]
+          },
+          {
+            "childrenIds": [
+              "block-1735190225111",
+              "block-1735190228467",
+              "block-1735190234325",
+              "block-1735190236453",
+              "block-1735190243053"
+            ]
+          },
+          {
+            "childrenIds": [
+              "block-1735190362478",
+              "block-1735190373032",
+              "block-1735190389630",
+              "block-1735190411982"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "block-1735190047260": {
+    "type": "Image",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "url": "https://assets.usewaypoint.com/sample-image.jpg",
+        "alt": "Sample product",
+        "linkHref": null,
+        "contentAlignment": "middle"
+      }
+    }
+  },
+  "block-1735190049451": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "Analogue Clock",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735190051677": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "Thoughtful and simply designed."
+      }
+    }
+  },
+  "block-1735190053965": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "$40.00",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735190059428": {
+    "type": "Button",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "buttonBackgroundColor": "#2563EB",
+        "size": "small",
+        "text": "Buy Now",
+        "url": "https://www.usewaypoint.com"
+      }
+    }
+  },
+  "block-1735190225111": {
+    "type": "Image",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "url": "https://assets.usewaypoint.com/sample-image.jpg",
+        "alt": "Sample product",
+        "linkHref": null,
+        "contentAlignment": "middle"
+      }
+    }
+  },
+  "block-1735190228467": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "Classic Wall Clock",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735190234325": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "The original easy to read dial layout."
+      }
+    }
+  },
+  "block-1735190236453": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "$40.00",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735190243053": {
+    "type": "Button",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "buttonBackgroundColor": "#2563EB",
+        "size": "small",
+        "text": "Button",
+        "url": "https://www.usewaypoint.com"
+      }
+    }
+  },
+  "block-1735190362478": {
+    "type": "Image",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "url": "https://assets.usewaypoint.com/sample-image.jpg",
+        "alt": "Sample product",
+        "linkHref": null,
+        "contentAlignment": "middle"
+      }
+    }
+  },
+  "block-1735190373032": {
+    "type": "Heading",
+    "data": {
+      "props": {
+        "text": "Classic Watch",
+        "level": "h3"
+      },
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      }
+    }
+  },
+  "block-1735190389630": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontWeight": "normal",
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "text": "Functional, classic, and built to last."
+      }
+    }
+  },
+  "block-1735190411982": {
+    "type": "Button",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 4,
+          "bottom": 4,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "buttonBackgroundColor": "#2563EB",
+        "size": "small",
+        "text": "Button",
+        "url": "https://www.usewaypoint.com"
+      }
+    }
+  }
+}

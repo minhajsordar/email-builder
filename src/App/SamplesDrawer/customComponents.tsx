@@ -4,6 +4,8 @@ import OneProductJSON from "./customComponentList/one-product.json"
 import OneProductImage from "./customComponentList/one-product.png"
 import OneProductRowJSON from "./customComponentList/oneproduct-row.json"
 import OneProductRowImage from "./customComponentList/oneproduct-row.png"
+import ThreeProductRowJSON from "./customComponentList/three-product-col.json"
+import ThreeProductColImage from "./customComponentList/three-product-col.png"
 type TButtonProps = {
   label: string;
   icon: JSX.Element;
@@ -25,6 +27,14 @@ export const CustomComponents: TButtonProps[] = [
     block: () => ({
       type: "CustomBlock",
       data: OneProductRowJSON
+    }),
+  },
+  {
+    label: 'Three Product Col',
+    icon: <img style={{width:"70px",height:"70px"}} src={ThreeProductColImage} alt="Custom Icon" />,
+    block: () => ({
+      type: "CustomBlock",
+      data: ThreeProductRowJSON
     }),
   },
 ];
