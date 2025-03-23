@@ -1,16 +1,22 @@
 {
   "root": {
-    "type": "EmailLayout",
+    "type": "Container",
     "data": {
-      "backdropColor": "#F5F5F5",
-      "canvasColor": "#FFFFFF",
-      "textColor": "#262626",
-      "fontFamily": "MODERN_SANS",
-      "childrenIds": [
-        "block-1735190015949",
-        "block-1735190027325",
-        "block-1735190036141"
-      ]
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "left": 24,
+          "right": 24
+        }
+      },
+      "props": {
+        "childrenIds": [
+          "block-1735190015949",
+          "block-1735190027325",
+          "block-1735190036141"
+        ]
+      }
     }
   },
   "block-1735190015949": {
